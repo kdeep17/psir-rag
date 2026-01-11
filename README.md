@@ -1,7 +1,7 @@
 PSIR RAG Assistant (DIY Retrieval-Augmented Generation)
 Overview
 
-This project implements a DIY Retrieval-Augmented Generation (RAG) system over personally compiled PSIR (Political Science & International Relations) notes.
+This project implements a DIY Retrieval-Augmented Generation (RAG) system over personally compiled UPSC CSE PSIR (Political Science & International Relations) notes.
 The objective is to demonstrate correct RAG architecture, cost-aware design, and AWS-aligned GenAI implementation, rather than content completeness.
 
 The system retrieves relevant note fragments using FAISS vector search and generates grounded answers using Amazon Bedrock models.
@@ -114,7 +114,6 @@ Explain realism in one sentence.
 
 The answer is generated strictly from retrieved PSIR notes, not model priors.
 
-Why This Project Matters
 
 This project is designed to demonstrate:
 
@@ -137,6 +136,3 @@ ECS or EC2 deployment
 API Gateway in front of container
 
 Source citation display in UI
-
-Author’s Note:
-This project prioritizes architectural correctness and explainability over scale or polish, in line with real GenAI interview expectations.
