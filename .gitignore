@@ -1,0 +1,12 @@
+# Ignore notes / data
+data/
+*.pdf
+*.log
+
+# Python
+__pycache__/
+venv/
+.env
+
+# Local test scripts
+test_*.py
