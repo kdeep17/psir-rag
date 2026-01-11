@@ -42,9 +42,9 @@ Smaller chunks preserve topic purity
 
 Chunking parameters:
 
-chunk_size: ~200 tokens
+chunk_size: ~350 tokens
 
-chunk_overlap: ~15 tokens
+chunk_overlap: ~60 tokens
 
 Chunk engineering is part of the ingestion pipeline, not runtime.
 
@@ -124,7 +124,7 @@ Separation of offline ingestion vs online inference
 
 Practical AWS GenAI integration
 
-Cost-efficient, interview-defensible system design
+Cost-efficient system design
 
 It intentionally avoids overengineering (ECS, OpenSearch, hosted UIs) to focus on core GenAI reasoning skills.
 
